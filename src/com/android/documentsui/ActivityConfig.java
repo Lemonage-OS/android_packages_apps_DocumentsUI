@@ -42,7 +42,7 @@ public abstract class ActivityConfig {
      * 2) Android/[data|obb|sandbox] directories will not be hidden.
      */
     public boolean managedModeEnabled(DocumentStack stack) {
-        return false;
+        return true;
     }
 
     /**
